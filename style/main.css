@@ -3227,7 +3227,7 @@ hr {
   .tile.tile-2-Infinity .tile-inner {
     color: #f9f6f2;
     background: #000000;
-    background-image: url(../exInf.jpg);
+    background-image: url(../exInf.png);
     background-size:cover;
     box-shadow: 0 0 30px 10px rgba(0, 0, 0, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 55px; }
