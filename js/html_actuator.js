@@ -59,6 +59,7 @@ HTMLActuator.prototype.addTile = function (tile) {
   if (tile.value > Math.pow(2, 69)) {
     classes = ["tile", "tile-" + "2-" + Math.log2(tile.value), positionClass];
   }
+  if (tile.value > Math.pow(2, 160) && tile.value < Math.pow(2, 400)) classes.push("tile-ex");
   if (tile.value >= Math.pow(2, 400) && tile.value < Math.pow(2, 500)) classes.push("tile-ex1");
   if (tile.value >= Math.pow(2, 500) && tile.value < Math.pow(2, 600)) classes.push("tile-ex2");
   if (tile.value >= Math.pow(2, 600) && tile.value < Math.pow(2, 700)) classes.push("tile-ex3");
