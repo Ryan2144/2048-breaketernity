@@ -72,7 +72,10 @@ HTMLActuator.prototype.addTile = function (tile) {
   this.applyClasses(wrapper, classes);
 
   inner.classList.add("tile-inner");
-  if (tile.value >=1000000) {
+  if (tile.value === Infinity) {
+    inner.textContent = "∞";
+  }
+  else if (tile.value >=1000000) {
     tile.value = String(tile.value);
     inner.textContent = abbreviate(tile.value);
   }
@@ -126,7 +129,10 @@ HTMLActuator.prototype.updateScore = function (score) {
 
   var difference = score - this.score;
   this.score = score;
-if(this.score >= 1000000000) {
+if(this.score === Infinity) {
+  this.scoreContainer.textContent = "∞";
+}
+else if(this.score >= 1000000000) {
   this.scoreContainer.textContent = abbreviate(String(this.score));
 }
 else {
@@ -136,7 +142,10 @@ else {
   if (difference > 0) {
     var addition = document.createElement("div");
     addition.classList.add("score-addition");
-if(difference >= 1000000000) {
+if(difference === Infinity) {
+  addition.textContent = "+" + "∞";
+}
+else if(difference >= 1000000000) {
   addition.textContent = "+" + abbreviate(String(difference));
 }
 else {
@@ -148,7 +157,10 @@ else {
 };
 
 HTMLActuator.prototype.updateBestScore = function (bestScore) {
-if(bestScore >= 1000000000) {
+if(bestScore == Infinity) {
+  this.bestContainer.textContent = "∞";
+}
+else if(bestScore >= 1000000000) {
   this.bestContainer.textContent = abbreviate(String(bestScore));
 }
 else {
