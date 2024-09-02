@@ -132,7 +132,7 @@ if(this.score === Infinity) {
   this.scoreContainer.textContent = "∞";
 }
 else if(this.score >= 1000000000) {
-  this.scoreContainer.textContent = abbreviate(String(this.score));
+  this.scoreContainer.textContent = abbreviate(this.score);
 }
 else {
   this.scoreContainer.textContent = this.score;
@@ -145,7 +145,7 @@ if(difference === Infinity) {
   addition.textContent = "+" + "∞";
 }
 else if(difference >= 1000000000) {
-  addition.textContent = "+" + abbreviate(String(difference));
+  addition.textContent = "+" + abbreviate(difference);
 }
 else {
   addition.textContent = "+" + difference;
@@ -160,7 +160,7 @@ if(bestScore == Infinity) {
   this.bestContainer.textContent = "∞";
 }
 else if(bestScore >= 1000000000) {
-  this.bestContainer.textContent = abbreviate(String(bestScore));
+  this.bestContainer.textContent = abbreviate(bestScore);
 }
 else {
   this.bestContainer.textContent = bestScore;
