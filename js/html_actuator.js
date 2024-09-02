@@ -76,7 +76,6 @@ HTMLActuator.prototype.addTile = function (tile) {
     inner.textContent = "∞";
   }
   else if (tile.value >=1000000) {
-    tile.value = String(tile.value);
     inner.textContent = abbreviate(tile.value);
   }
   else {
