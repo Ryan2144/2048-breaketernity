@@ -1,0 +1,141 @@
+Ones illions:
+K - Thousand
+M - Million
+B - Billion
+T - Trillion
+Q - Quadrillion
+Qi - Quintillion
+Sx - Sextillion
+Sp - Septillion
+Oc - Octillion
+N - Nonillion
+
+Tens illions:
+D - Decillion
+--After Decillion: UD DD TD QD QiD SxD SpD OcD ND--
+*will be changed to De in front of a hundreds illion
+V - Vigintillion
+TR - Trigintillion
+QU - Quadragintillion
+QI - Quinquagintillion
+SX - Sexagintillion
+SP - Septuagintillion
+OC - Octogintillion
+NO - Nonagintillion
+
+Prefixes in Decillions:
+U - Un-
+D - Duo-
+T - Tre-
+Q - Quattuor-
+Qi - Quin-
+Sx - Sex-
+Sp - Septen-
+Oc - Octo-
+N - Novem-
+
+Hundreds illions:
+CE - Centillion
+DU - Ducentillion
+TE - Trucentillion
+QR - Quadringentillion
+QN - Quingentillion
+SE - Sescentillion
+ST - Septingentillion
+OT - Octingentillion
+NN - Nongentillion
+
+Larger numbers:
+Mil - Millillion
+MilM - Milli-million
+BMil - Bilmillillion
+DMil - Decimillillion
+(My - Myrillion)
+CEMil - Centimillillion
+Mic - Micrillion
+Na - Nanillion
+Pi - Picillion
+Fm - Femtillion
+At - Attillion
+Zp - Zeptillion
+Yc - Yoctillion
+Xn - Xonillion
+Vc - Vecillion
+Mc - Mecillion
+Due - Duecillion
+Tre - Trecillion
+Tte - Tetrecillion
+Pn - Pentecillion
+Hx - Hexecillion
+Hp - Heptecillion
+Oct - Octecillion
+En - Ennecillion
+Ico - Icosillion
+Mco - Meicosillion
+Tc - Triacontillion
+Ttc - Tetracontillion
+Pc - Pentacontillion
+Hxc - Hexacontillion
+Hpc - Heptacontillion
+Occ - Octacontillion
+Ec - Ennecontillion
+Hc - Hectillion
+Dh - Dohectillion
+Th - Triahectillion
+Tth - Tetrahectillion
+Ph - Pentahectillion
+Hh - Hexahectillion
+Hph - Heptahectillion
+Och - Octahectillion
+Eh - Ennahectillion
+Ki - Killillion
+Mg - Megillion
+Gi - Gigillion
+Ter - Terillion
+Pt - Petillion
+Ex - Exillion
+Zt - Zettillion
+Yt - Yottillion
+Xe - Xennillion
+Dk - Dakillion
+Ik
+Tk
+Tek
+Pk
+Ek
+Zk
+Yk
+Nk
+Hn
+Do
+Tra
+Ted
+Pd
+Ed
+Zd
+Yd
+Nd
+Ht
+Ka
+Da
+Ta
+Tra
+Pa
+Ea
+Za
+Ya
+NA
+Dak
+Hot
+Mj
+Gj
+Ast
+Ln
+Fr
+Jv
+Sl
+Bt
+Glc
+Vs
+Sup
+Mult - Multillion
