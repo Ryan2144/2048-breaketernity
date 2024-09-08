@@ -3236,13 +3236,23 @@ hr {
         font-size: 8px; } }
   .tile.tile-2-900 .tile-inner {
     color: #f9f6f2;
-    background: #edbc0c;
+    background: #ebb914;
     background-image: url(../ex7.jpg);
     background-size:cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 115, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 16px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2-900 .tile-inner {
+        font-size: 8px; } }
+  .tile.tile-2-1000 .tile-inner {
+    color: #f9f6f2;
+    background: #d3a612;
+    background-image: url(../ex8.jpg);
+    background-size:cover;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 115, 1), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 16px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-2-1000 .tile-inner {
         font-size: 8px; } }
   .tile.tile-2-Infinity .tile-inner {
     color: #f9f6f2;
