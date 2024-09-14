@@ -214,23 +214,30 @@ Sup - Supillion
 Vs - Versillion
 Mlt - Multillion
 
-Special abbreviations that I made up based on anime & manga (these are NOT real numbers and have NO SPECIFIC VALUE):
-Mk - Mikuillion
-Ri - Rinillion
-Le - Lenillion
-Lk - Lukaillion
-Me - Meikoillion
-Kt - Kaitoillion
-Yi - Yujillion
-Mm - Megumillion
-Goj - Gojillion
-Nb - Nobaraillion
-Ge - Getoillion
-Zn'n - Zen'inillion
-Yuta - Yutaillion
-To - Togeillion
-Lf - Luffyillion
-Gku - Gokuillion
-Nr - Narutoillion
-Kk - Kakashillion
-Sa - Sakuraillion
+Special abbreviations that I made up based on anime & manga characters (these are NOT real numbers and have NO SPECIFIC VALUE):
+Mk - Mikuillion (Hatsune Miku)
+Ri - Rinillion (Kagamine Rin)
+Le - Lenillion (Kagamine Len)
+Lk - Lukaillion (Megurine Luka)
+Me - Meikillion (MEIKO)
+Kt - Kaitillion (KAITO)
+Yi - Yujillion (Yuji Itadori)
+Mm - Megumillion (Megumi Fushiguro)
+Goj - Gojillion (Satoru Gojo)
+Nb - Nobaraillion (Nobara Kugisaki)
+Ge - Getillion (Suguru Geto)
+Zn'n - Zen'inillion (Maki Zen'in)
+Mh - Mahitillion (Mahito)
+Suk - Sukunaillion (Ryomen Sukuna)
+Toj - Tojillion (Toji Fushiguro)
+Yuta - Yutaillion (Yuta Okkotsu)
+To - Togeillion (Toge Inumaki)
+Lf - Luffyillion (Monkey D. Luffy)
+Gku - Gokuillion (Goku)
+Nr - Narutillion (Naruto Uzumaki)
+Kk - Kakashillion (Kakashi Hatake)
+Sa - Sakuraillion (Sakura Haruno)
+An - Anyaillion (Anya Forger)
+Lod - Loidillion (Loid Forger)
+Yor - Yorillion (Yor Forger)
+Dm - Damianillion (Damian Desmond)
