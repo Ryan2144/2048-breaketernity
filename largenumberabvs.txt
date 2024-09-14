@@ -72,6 +72,7 @@ Oct - Octecillion
 En - Ennecillion
 Ico - Icosillion
 Mco - Meicosillion
+Di - Dueicosillion
 Tc - Triacontillion
 Ttc - Tetracontillion
 Pc - Pentacontillion
@@ -98,44 +99,138 @@ Zt - Zettillion
 Yt - Yottillion
 Xe - Xennillion
 Dk - Dakillion
-Ik
-Tk
-Tek
-Pk
-Ek
-Zk
-Yk
-Nk
-Hn
-Do
-Tra
-Ted
-Pd
-Ed
-Zd
-Yd
-Nd
-Ht
-Ka
-Da
-Ta
-Tra
-Pa
-Ea
-Za
-Ya
-NA
-Dak
-Hot
-Mj
-Gj
-Ast
-Ln
-Fr
-Jv
-Sl
-Bt
-Glc
-Vs
-Sup
+Hd - Hendillion
+Do - Dokillion
+Tra - Tradakillion
+Ted - Tedakillion
+Pd - Pedakillion
+Ed - Exdakillion
+Zd - Zedakillion
+Yd - Yodakillion
+Nd - Nedakillion
+Ik - Ikillion
+Iken - Ikenillion
+Id - Icodillion
+It - Ictrillion
+Itr - Icterillion
+Icp - Icpetillion
+Ikc - Ikectillion
+Iz - Iczetillion
+Iy - Ikyotillion
+Ix - Icxenillion
+Tk - Trakillion
+Tek - Tekillion
+Pk - Pekillion
+Ek - Exakillion
+Zk - Zakillion
+Yk - Yokillion
+Nk - Nekillion
+Ht - Hotillion
+Bt - Botillion
+Tt - Trotillion
+Tot - Totillion
+Pt - Potillion
+Exo - Exotillion
+Zo - Zotillion
+Yo - Yootillion
+No - Notillion
+Ka - Kalillion
+Da - Dalillion
+Tra - Tralillion
+Ta - Talillion 
+Pa - Palillion
+Ea - Exalillion
+Za - Zalillion
+Ya - Yalillion
+NA - Nalillion
+Dak - Dakalillion
+Ha - Hendalillion
+Dka - Dokalillion
+Tad - Tradakalillion
+Tdk - Tedakalillion
+Pdk - Pedakalillion
+Edk - Exdakalillion
+Zdk - Zedakalillion
+Ydk - Yodakalillion
+Ndk - Nedakalillion
+Ika - Ikalillion
+Tka - Trakalillion
+Teka - Tekalillion
+Pka - Pekalillion
+Eka - Exakalillion
+Zka - Zakalillion
+Yka - Yokalillion
+Nka - Nekalillion
+Hot - Hotalillion
+Bta - Botalillion
+Tta - Trotalillion
+Toa - Totalillion
+Pta - Potalillion
+Eta - Exotalillion
+Zta - Zotalillion
+Yta - Yootalillion
+Nta - Notalillion
+Mj - Mejillion
+Bj/Dj - Bejillion/Dejillion
+Tj - Trejillion
+Tej - Tejillion
+Pj - Pejillion
+Ej - Exejillion
+Zj - Zejillion
+Yj - Yejillion
+Nj - Nejillion
+Dkj - Dakejillion
+Hj - Hendejillion
+Doj - Dokejillion
+Tkj - Tradakejillion
+Tdj - Tedakejillion
+Pkj - Pedakejillion
+Ekj - Exdakejillion
+Zkj - Zedakejillion
+Ykj - Yodakejillion
+Nkj - Nedakejillion
+Ij - Ikejillion
+Htj - Hotejillion
+Gj - Gijillion
+Dij - Dijillion
+Trj - Trijillion
+Tij - Tijillion
+Pij - Pijillion
+Eij - Exijillion
+Zij - Zijillion
+Yij - Yijillion
+Nij - Nijillion
+Dij - Dakijillion
+Hij - Hotijillion
+Ast - Astillion
+Ln - Lunillion
+Fr - Fermillion
+Jv - Jovillion
+Sl - Solillion
+Bt - Betillion
+Glc - Glocillion
+Gx - Gaxillion
+Sup - Supillion
+Vs - Versillion
 Mlt - Multillion
+
+Special abbreviations that I made up based on anime & manga (these are NOT real numbers and have NO SPECIFIC VALUE):
+Mk - Mikuillion
+Ri - Rinillion
+Le - Lenillion
+Lk - Lukaillion
+Me - Meikoillion
+Kt - Kaitoillion
+Yi - Yujillion
+Mm - Megumillion
+Goj - Gojillion
+Nb - Nobaraillion
+Ge - Getoillion
+Zn'n - Zen'inillion
+Yuta - Yutaillion
+To - Togeillion
+Lf - Luffyillion
+Gku - Gokuillion
+Nr - Narutoillion
+Kk - Kakashillion
+Sa - Sakuraillion
