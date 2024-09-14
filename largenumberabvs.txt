@@ -109,7 +109,7 @@ Zd - Zedakillion
 Yd - Yodakillion
 Nd - Nedakillion
 Ik - Ikillion
-Iken - Ikenillion
+Ikn - Ikenillion
 Id - Icodillion
 It - Ictrillion
 Itr - Icterillion
@@ -155,7 +155,7 @@ Ydk - Yodakalillion
 Ndk - Nedakalillion
 Ika - Ikalillion
 Tka - Trakalillion
-Teka - Tekalillion
+Tea - Tekalillion
 Pka - Pekalillion
 Eka - Exakalillion
 Zka - Zakalillion
@@ -226,11 +226,11 @@ Mm - Megumillion (Megumi Fushiguro)
 Goj - Gojillion (Satoru Gojo)
 Nb - Nobaraillion (Nobara Kugisaki)
 Ge - Getillion (Suguru Geto)
-Zn'n - Zen'inillion (Maki Zen'in)
+Z'n - Zen'inillion (Maki Zen'in)
 Mh - Mahitillion (Mahito)
 Suk - Sukunaillion (Ryomen Sukuna)
 Toj - Tojillion (Toji Fushiguro)
-Yuta - Yutaillion (Yuta Okkotsu)
+Yta - Yutaillion (Yuta Okkotsu)
 To - Togeillion (Toge Inumaki)
 Lf - Luffyillion (Monkey D. Luffy)
 Gku - Gokuillion (Goku)
