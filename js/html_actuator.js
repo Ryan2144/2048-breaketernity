@@ -55,19 +55,19 @@ HTMLActuator.prototype.addTile = function (tile) {
   var positionClass = this.positionClass(position);
 
   // We can't use classlist because it somehow glitches when replacing classes
-  var classes = ["tile", "tile-" + tile.value, positionClass];
-  if (tile.value > Math.pow(2, 69)) {
-    classes = ["tile", "tile-" + "2-" + Math.log2(tile.value), positionClass];
+  var classes = ["tile", "tile-" + Math.pow(2,tile.value), positionClass];
+  if (tile.value > 69) {
+    classes = ["tile", "tile-" + "2-" + tile.value, positionClass];
   }
-  if (tile.value > Math.pow(2, 160) && tile.value < Math.pow(2, 400)) classes.push("tile-ex");
-  if (tile.value >= Math.pow(2, 400) && tile.value < Math.pow(2, 500)) classes.push("tile-ex1");
-  if (tile.value >= Math.pow(2, 500) && tile.value < Math.pow(2, 600)) classes.push("tile-ex2");
-  if (tile.value >= Math.pow(2, 600) && tile.value < Math.pow(2, 700)) classes.push("tile-ex3");
-  if (tile.value >= Math.pow(2, 700) && tile.value < Math.pow(2, 800)) classes.push("tile-ex4");
-  if (tile.value >= Math.pow(2, 800) && tile.value < Math.pow(2, 900)) classes.push("tile-ex5");
-  if (tile.value >= Math.pow(2, 900) && tile.value < Math.pow(2, 1000)) classes.push("tile-ex6");
-  if (tile.value >= Math.pow(2, 1000) && tile.value < Math.pow(2, 1024)) classes.push("tile-ex7");
-  if (tile.value >= Math.pow(2, 1024)) classes.push("tile-ex8");
+  if (tile.value > 160 && tile.value < 400) classes.push("tile-ex");
+  if (tile.value >= 400 && tile.value < 500) classes.push("tile-ex1");
+  if (tile.value >= 500 && tile.value < 600) classes.push("tile-ex2");
+  if (tile.value >= 600 && tile.value < 700) classes.push("tile-ex3");
+  if (tile.value >= 700 && tile.value < 800) classes.push("tile-ex4");
+  if (tile.value >= 800 && tile.value < 900) classes.push("tile-ex5");
+  if (tile.value >= 900 && tile.value < 1000) classes.push("tile-ex6");
+  if (tile.value >= 1000 && tile.value < 1024) classes.push("tile-ex7");
+  if (tile.value >= 1024) classes.push("tile-ex8");
 
   this.applyClasses(wrapper, classes);
 
@@ -75,14 +75,14 @@ HTMLActuator.prototype.addTile = function (tile) {
   if (tile.value === Infinity) {
     inner.textContent = "∞";
   }
-  else if (tile.value >=1000000) {
-    inner.textContent = abbreviate(tile.value);
+  else if (Math.pow(2,tile.value) >=1000000) {
+    inner.textContent = abbreviate("2^" + String(tile.value));
   }
   else {
-    inner.textContent = tile.value;
+    inner.textContent = Math.pow(2,tile.value);
   }
-  var noOfRotations = Math.floor((Math.log2(tile.value)*15.6-(120)) / 360)
-  if(Math.log2(tile.value) > 400 && Math.log2(tile.value) != 500 && Math.log2(tile.value) != 600 && Math.log2(tile.value) != 700 && Math.log2(tile.value) != 800 && Math.log2(tile.value) != 900 && Math.log2(tile.value) != 1000) inner.style.filter = `hue-rotate(${(Math.log2(tile.value)*15.6-120)-(360*noOfRotations)}deg)`
+  var noOfRotations = Math.floor((tile.value*15.6-(120)) / 360)
+  if(tile.value > 400 && tile.value != 500 && tile.value != 600 && tile.value != 700 && tile.value != 800 && tile.value != 900 && tile.value != 1000) inner.style.filter = `hue-rotate(${(tile.value*15.6-120)-(360*noOfRotations)}deg)`
 
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
@@ -131,11 +131,11 @@ HTMLActuator.prototype.updateScore = function (score) {
 if(this.score === Infinity) {
   this.scoreContainer.textContent = "∞";
 }
-else if(this.score >= 1000000000) {
-  this.scoreContainer.textContent = abbreviate(this.score);
+else if(Math.pow(2,this.score) >= 1000000000) {
+  this.scoreContainer.textContent = abbreviate("2^" + String(this.score));
 }
 else {
-  this.scoreContainer.textContent = this.score;
+  this.scoreContainer.textContent = Math.pow(2,this.score);
 }
 
   if (difference > 0) {
@@ -144,8 +144,8 @@ else {
 if(difference === Infinity) {
   addition.textContent = "+" + "∞";
 }
-else if(difference >= 1000000000) {
-  addition.textContent = "+" + abbreviate(difference);
+else if(Math.pow(2,difference) >= 1000000000) {
+  addition.textContent = "+" + abbreviate("2^" + String(difference));
 }
 else {
   addition.textContent = "+" + difference;
@@ -159,11 +159,11 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 if(bestScore == Infinity) {
   this.bestContainer.textContent = "∞";
 }
-else if(bestScore >= 1000000000) {
-  this.bestContainer.textContent = abbreviate(bestScore);
+else if(Math.pow(2,bestScore) >= 1000000000) {
+  this.bestContainer.textContent = abbreviate("2^" + String(bestScore));
 }
 else {
-  this.bestContainer.textContent = bestScore;
+  this.bestContainer.textContent = Math.pow(2,bestScore);
 }
 };
 
