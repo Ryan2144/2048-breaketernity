@@ -138,21 +138,21 @@ else {
   this.scoreContainer.textContent = Math.pow(2,this.score);
 }
 
-  if (difference > 0) {
+  /*if (difference > 0) {
     var addition = document.createElement("div");
     addition.classList.add("score-addition");
-if(difference === Infinity) {
+if(this.score/2 === Infinity) {
   addition.textContent = "+" + "∞";
 }
-else if(Math.pow(2,difference) >= 1000000000) {
-  addition.textContent = "+" + abbreviate("2^" + String(difference));
+else if(Math.pow(2,this.score/2) >= 1000000000) {
+  addition.textContent = "+" + abbreviate("2^" + String(this.score) / 2);
 }
 else {
-  addition.textContent = "+" + difference;
+  addition.textContent = "+" + (Math.pow(2,this.score) / 2);
 }
 
     this.scoreContainer.appendChild(addition);
-  }
+  }*/
 };
 
 HTMLActuator.prototype.updateBestScore = function (bestScore) {
