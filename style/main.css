@@ -3178,8 +3178,8 @@ hr {
         font-size: 8px; } }
   .tile.tile-ex8 .tile-inner {
     color: #f9f6f2;
-    background: #400000;
-    box-shadow: 0 0 30px 10px #400000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    background: #800000;
+    box-shadow: 0 0 30px 10px #800000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 15px; }
     @media screen and (max-width: 520px) {
       .tile.tile-ex8 .tile-inner {
