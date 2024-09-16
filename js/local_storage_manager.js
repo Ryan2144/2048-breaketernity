@@ -19,8 +19,8 @@ window.fakeStorage = {
 };
 
 function LocalStorageManager() {
-  this.bestScoreKey     = "bestScore2048BreakEternity";
-  this.gameStateKey     = "gameState2048BreakEternity";
+  this.bestScoreKey     = "bestScoreBreakEternity";
+  this.gameStateKey     = "gameStateBreakEternity";
 
   var supported = this.localStorageSupported();
   this.storage = supported ? window.localStorage : window.fakeStorage;
