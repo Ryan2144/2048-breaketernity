@@ -88,7 +88,10 @@ HTMLActuator.prototype.addTile = function (tile) {
     inner.textContent = Math.pow(2,tile.value);
   }
   var noOfRotations = Math.floor((tile.value*15.6-(120)) / 360)
-  if(tile.value > 400 && tile.value != 500 && tile.value != 600 && tile.value != 700 && tile.value != 800 && tile.value != 900 && tile.value != 1000) inner.style.filter = `hue-rotate(${(tile.value*15.6-120)-(360*noOfRotations)}deg)`
+  if(tile.value > 400 && tile.value != 500 && tile.value != 600 && tile.value != 700 && tile.value != 800 && tile.value != 900 && tile.value != 1000 && tile.value < 1100) inner.style.filter = `hue-rotate(${(tile.value*15.6-120)-(360*noOfRotations)}deg)`
+  
+  var noOfRotationsSuper = Math.floor((tile.value*5.05-(155)) / 360)
+  if(tile.value > 1100) inner.style.filter = `hue-rotate(${(tile.value*5.05-155)-(360*noOfRotationsSuper)}deg)`
 
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
