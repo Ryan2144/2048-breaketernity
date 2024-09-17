@@ -67,7 +67,13 @@ HTMLActuator.prototype.addTile = function (tile) {
   if (tile.value >= 800 && tile.value < 900) classes.push("tile-ex5");
   if (tile.value >= 900 && tile.value < 1000) classes.push("tile-ex6");
   if (tile.value >= 1000 && tile.value < 1024) classes.push("tile-ex7");
-  if (tile.value >= 1024) classes.push("tile-ex8");
+  if (tile.value >= 1024 && tile.value < 1100) classes.push("tile-ex8");
+  if (tile.value >= 1100 && tile.value < 8100) classes.push("tile-ex" + String(Math.floor((tile.value/100))-2));
+  if (tile.value >= 1700 && tile.value < 8100) classes.push("tile-ex-super");
+  if (tile.value >= 8100 && tile.value < 10000) classes.push("tile-ex-super-1");
+  if (tile.value >= 10000 && tile.value < 100000) classes.push("tile-ex-super-2");
+  if (tile.value >= 100000 && tile.value < 1000000) classes.push("tile-ex-super-3");
+  if (tile.value >= 1000000) classes.push("tile-ex-super-4");
 
   this.applyClasses(wrapper, classes);
 
