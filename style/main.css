@@ -3188,7 +3188,6 @@ hr {
     color: #f9f6f2;
     background: #d60000 url("../sprite.png");
     background-size: 200% auto;
-    background-position: 0% 0%;
     box-shadow: 0 0 30px 10px #d60000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 15px; }
     @media screen and (max-width: 520px) {
@@ -3198,7 +3197,6 @@ hr {
     color: #f9f6f2;
     background: #d30000 url("../sprite.png");
     background-size: 200% auto;
-    background-position: 0% -100%;
     box-shadow: 0 0 30px 10px #d30000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 14px; }
     @media screen and (max-width: 520px) {
@@ -3208,7 +3206,6 @@ hr {
     color: #f9f6f2;
     background: #ce0000 url("../sprite.png");
     background-size: 200% auto;
-    background-position: 0% -200%;
     box-shadow: 0 0 30px 10px #ce0000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 14px; }
     @media screen and (max-width: 520px) {
@@ -3218,7 +3215,6 @@ hr {
     color: #f9f6f2;
     background: #cc0000 url("../sprite.png");
     background-size: 200% auto;
-    background-position: 0% -300%;
     box-shadow: 0 0 30px 10px #cc0000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 14px; }
     @media screen and (max-width: 520px) {
@@ -3228,7 +3224,6 @@ hr {
     color: #f9f6f2;
     background: #ca0000 url("../sprite.png");
     background-size: 200% auto;
-    background-position: 0% -400%;
     box-shadow: 0 0 30px 10px #ca0000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 14px; }
     @media screen and (max-width: 520px) {
@@ -3238,7 +3233,6 @@ hr {
     color: #f9f6f2;
     background: #c80000 url("../sprite.png");
     background-size: 200% auto;
-    background-position: 0% -500%;
     box-shadow: 0 0 30px 10px #c80000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 14px; }
     @media screen and (max-width: 520px) {
@@ -3248,7 +3242,6 @@ hr {
     color: #f9f6f2;
     background: #c50000 url("../sprite.png");
     background-size: 200% auto;
-    background-position: 0% -600%;
     box-shadow: 0 0 30px 10px #c50000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 14px; }
     @media screen and (max-width: 520px) {
@@ -3258,7 +3251,6 @@ hr {
     color: #f9f6f2;
     background: #c30000 url("../sprite.png");
     background-size: 200% auto;
-    background-position: 0% -700%;
     box-shadow: 0 0 30px 10px #c30000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 14px; }
     @media screen and (max-width: 520px) {
@@ -3273,6 +3265,14 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-ex-super .tile-inner {
         font-size: 6px; } }
+.tile.tile-ex9 .tile-inner { background-position: 0% 0%; }
+.tile.tile-ex10 .tile-inner { background-position: 0% -100%; }
+.tile.tile-ex11 .tile-inner { background-position: 0% -200%; }
+.tile.tile-ex12 .tile-inner { background-position: 0% -300%; }
+.tile.tile-ex13 .tile-inner { background-position: 0% -400%; }
+.tile.tile-ex14 .tile-inner { background-position: 0% -500%; }
+.tile.tile-ex15 .tile-inner { background-position: 0% -600%; }
+.tile.tile-ex16 .tile-inner { background-position: 0% -700%; }
 .tile.tile-ex17 .tile-inner { background-position: 0% -800%; }
 .tile.tile-ex18 .tile-inner { background-position: 0% -900%; }
 .tile.tile-ex19 .tile-inner { background-position: 0% -1000%; }
