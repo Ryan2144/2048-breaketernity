@@ -3178,12 +3178,163 @@ hr {
         font-size: 8px; } }
   .tile.tile-ex8 .tile-inner {
     color: #f9f6f2;
-    background: #800000;
-    box-shadow: 0 0 30px 10px #800000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    background: #dd0000;
+    box-shadow: 0 0 30px 10px #dd0000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 15px; }
     @media screen and (max-width: 520px) {
       .tile.tile-ex8 .tile-inner {
         font-size: 7px; } }
+  .tile.tile-ex9 .tile-inner {
+    color: #f9f6f2;
+    background: #d60000 url("../sprite.png");
+    background-size: 200% auto;
+    background-position: 0% 0%;
+    box-shadow: 0 0 30px 10px #d60000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 15px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-ex9 .tile-inner {
+        font-size: 7px; } }
+  .tile.tile-ex10 .tile-inner {
+    color: #f9f6f2;
+    background: #d30000 url("../sprite.png");
+    background-size: 200% auto;
+    background-position: 0% -100%;
+    box-shadow: 0 0 30px 10px #d30000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 14px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-ex10 .tile-inner {
+        font-size: 6px; } }
+  .tile.tile-ex11 .tile-inner {
+    color: #f9f6f2;
+    background: #ce0000 url("../sprite.png");
+    background-size: 200% auto;
+    background-position: 0% -200%;
+    box-shadow: 0 0 30px 10px #ce0000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 14px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-ex11 .tile-inner {
+        font-size: 6px; } }
+  .tile.tile-ex12 .tile-inner {
+    color: #f9f6f2;
+    background: #cc0000 url("../sprite.png");
+    background-size: 200% auto;
+    background-position: 0% -300%;
+    box-shadow: 0 0 30px 10px #cc0000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 14px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-ex12 .tile-inner {
+        font-size: 6px; } }
+  .tile.tile-ex13 .tile-inner {
+    color: #f9f6f2;
+    background: #ca0000 url("../sprite.png");
+    background-size: 200% auto;
+    background-position: 0% -400%;
+    box-shadow: 0 0 30px 10px #ca0000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 14px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-ex13 .tile-inner {
+        font-size: 6px; } }
+  .tile.tile-ex14 .tile-inner {
+    color: #f9f6f2;
+    background: #c80000 url("../sprite.png");
+    background-size: 200% auto;
+    background-position: 0% -500%;
+    box-shadow: 0 0 30px 10px #c80000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 14px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-ex14 .tile-inner {
+        font-size: 6px; } }
+  .tile.tile-ex15 .tile-inner {
+    color: #f9f6f2;
+    background: #c50000 url("../sprite.png");
+    background-size: 200% auto;
+    background-position: 0% -600%;
+    box-shadow: 0 0 30px 10px #c50000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 14px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-ex15 .tile-inner {
+        font-size: 6px; } }
+  .tile.tile-ex16 .tile-inner {
+    color: #f9f6f2;
+    background: #c30000 url("../sprite.png");
+    background-size: 200% auto;
+    background-position: 0% -700%;
+    box-shadow: 0 0 30px 10px #c30000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 14px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-ex16 .tile-inner {
+        font-size: 6px; } }
+  .tile.tile-ex-super .tile-inner {
+    color: #f9f6f2;
+    background: #c00000 url("../sprite.png");
+    background-size: 200% auto;
+    box-shadow: 0 0 30px 10px #c00000, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 14px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-ex-super .tile-inner {
+        font-size: 6px; } }
+.tile.tile-ex17 .tile-inner { background-position: 0% -800%; }
+.tile.tile-ex18 .tile-inner { background-position: 0% -900%; }
+.tile.tile-ex19 .tile-inner { background-position: 0% -1000%; }
+.tile.tile-ex20 .tile-inner { background-position: 0% -1100%; }
+.tile.tile-ex21 .tile-inner { background-position: 0% -1200%; }
+.tile.tile-ex22 .tile-inner { background-position: 0% -1300%; }
+.tile.tile-ex23 .tile-inner { background-position: 0% -1400%; }
+.tile.tile-ex24 .tile-inner { background-position: 0% -1500%; }
+.tile.tile-ex25 .tile-inner { background-position: 0% -1600%; }
+.tile.tile-ex26 .tile-inner { background-position: 0% -1700%; }
+.tile.tile-ex27 .tile-inner { background-position: 0% -1800%; }
+.tile.tile-ex28 .tile-inner { background-position: 0% -1900%; }
+.tile.tile-ex29 .tile-inner { background-position: 0% -2000%; }
+.tile.tile-ex30 .tile-inner { background-position: 0% -2100%; }
+.tile.tile-ex31 .tile-inner { background-position: 0% -2200%; }
+.tile.tile-ex32 .tile-inner { background-position: 0% -2300%; }
+.tile.tile-ex33 .tile-inner { background-position: 0% -2400%; }
+.tile.tile-ex34 .tile-inner { background-position: 0% -2500%; }
+.tile.tile-ex35 .tile-inner { background-position: 0% -2600%; }
+.tile.tile-ex36 .tile-inner { background-position: 0% -2700%; }
+.tile.tile-ex37 .tile-inner { background-position: 0% -2800%; }
+.tile.tile-ex38 .tile-inner { background-position: 0% -2900%; }
+.tile.tile-ex39 .tile-inner { background-position: 0% -3000%; }
+.tile.tile-ex40 .tile-inner { background-position: 0% -3100%; }
+.tile.tile-ex41 .tile-inner { background-position: 0% -3200%; }
+.tile.tile-ex42 .tile-inner { background-position: 0% -3300%; }
+.tile.tile-ex43 .tile-inner { background-position: 0% -3400%; }
+.tile.tile-ex44 .tile-inner { background-position: 0% -3500%; }
+.tile.tile-ex45 .tile-inner { background-position: 0% -3600%; }
+.tile.tile-ex46 .tile-inner { background-position: 0% -3700%; }
+.tile.tile-ex47 .tile-inner { background-position: 0% -3800%; }
+.tile.tile-ex48 .tile-inner { background-position: 0% -3900%; }
+.tile.tile-ex49 .tile-inner { background-position: 0% -4000%; }
+.tile.tile-ex50 .tile-inner { background-position: 0% -4100%; }
+.tile.tile-ex51 .tile-inner { background-position: 0% -4200%; }
+.tile.tile-ex52 .tile-inner { background-position: 0% -4300%; }
+.tile.tile-ex53 .tile-inner { background-position: 0% -4400%; }
+.tile.tile-ex54 .tile-inner { background-position: 0% -4500%; }
+.tile.tile-ex55 .tile-inner { background-position: 0% -4600%; }
+.tile.tile-ex56 .tile-inner { background-position: 0% -4700%; }
+.tile.tile-ex57 .tile-inner { background-position: 0% -4800%; }
+.tile.tile-ex58 .tile-inner { background-position: 0% -4900%; }
+.tile.tile-ex59 .tile-inner { background-position: 0% -5000%; }
+.tile.tile-ex60 .tile-inner { background-position: 0% -5100%; }
+.tile.tile-ex61 .tile-inner { background-position: 0% -5200%; }
+.tile.tile-ex62 .tile-inner { background-position: 0% -5300%; }
+.tile.tile-ex63 .tile-inner { background-position: 0% -5400%; }
+.tile.tile-ex64 .tile-inner { background-position: 0% -5500%; }
+.tile.tile-ex65 .tile-inner { background-position: 0% -5600%; }
+.tile.tile-ex66 .tile-inner { background-position: 0% -5700%; }
+.tile.tile-ex67 .tile-inner { background-position: 0% -5800%; }
+.tile.tile-ex68 .tile-inner { background-position: 0% -5900%; }
+.tile.tile-ex69 .tile-inner { background-position: 0% -6000%; }
+.tile.tile-ex70 .tile-inner { background-position: 0% -6100%; }
+.tile.tile-ex71 .tile-inner { background-position: 0% -6200%; }
+.tile.tile-ex72 .tile-inner { background-position: 0% -6300%; }
+.tile.tile-ex73 .tile-inner { background-position: 0% -6400%; }
+.tile.tile-ex74 .tile-inner { background-position: 0% -6500%; }
+.tile.tile-ex75 .tile-inner { background-position: 0% -6600%; }
+.tile.tile-ex76 .tile-inner { background-position: 0% -6700%; }
+.tile.tile-ex77 .tile-inner { background-position: 0% -6800%; }
+.tile.tile-ex78 .tile-inner { background-position: 0% -6900%; }
   .tile.tile-2-400 .tile-inner {
     color: #f9f6f2;
     background: #edcf72;
@@ -3254,6 +3405,38 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-2-1000 .tile-inner {
         font-size: 8px; } }
+  .tile.tile-ex-super-1 .tile-inner {
+    color: #776e65;
+    background: #C9FFCA;
+    box-shadow: 0 0 30px 10px #C9FFCA, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 12px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-ex-super-1 .tile-inner {
+        font-size: 5px; } }
+  .tile.tile-ex-super-2 .tile-inner {
+    color: #776e65;
+    background: #9DFF9E;
+    box-shadow: 0 0 30px 10px #9DFF9E, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 10px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-ex-super-2 .tile-inner {
+        font-size: 4px; } }
+  .tile.tile-ex-super-3 .tile-inner {
+    color: #f9f6f2;
+    background: #3ADB3B;
+    box-shadow: 0 0 30px 10px #5BF05C, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 8px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-ex-super-3 .tile-inner {
+        font-size: 3px; } }
+  .tile.tile-ex-super-4 .tile-inner {
+    color: #f9f6f2;
+    background: #18C919;
+    box-shadow: 0 0 30px 10px #48EB49, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    font-size: 8px; }
+    @media screen and (max-width: 520px) {
+      .tile.tile-ex-super-4 .tile-inner {
+        font-size: 3px; } }
   .tile.tile-2-Infinity .tile-inner {
     color: #f9f6f2;
     background: #000000;
