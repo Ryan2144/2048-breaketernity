@@ -129,7 +129,10 @@ KeyboardInputManager.prototype.listen = function () {
 
 KeyboardInputManager.prototype.restart = function (event) {
   event.preventDefault();
-  this.emit("restart");
+  var game_restart = confirm('Are you sure you want to restart the game? All your progress will be lost!');
+  if(game_restart){
+    this.emit("restart");
+  }
 };
 
 KeyboardInputManager.prototype.keepPlaying = function (event) {
