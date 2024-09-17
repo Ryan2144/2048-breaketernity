@@ -9,7 +9,7 @@ const ILLIONS_OPTIONS = {
 	tam: false, //Uses Tamara's illions.
 
 	//TIER 2
-	myr: true, //Uses myrillions for decimillillion replacement.
+	myr: false, //Uses myrillions for decimillillion replacement.
 	si: false, //Uses SI's proposed prefixes for tier-2.
 }
 
@@ -259,7 +259,7 @@ let ILLIONS_FUNCTIONS = {
 	myrBlock(x, ty, k = "abb") {
 		var d = {
 			abb: "My",
-			abb_end: "My-",
+			abb_end: "My",
 
 			name: "myr",
 			name_end: "myrio-"
