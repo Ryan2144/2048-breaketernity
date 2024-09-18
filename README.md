@@ -3,9 +3,11 @@ Join the numbers, extinguish the lowest! Get the highest tile you can. Now tiles
 
 ## Current version:
 
-0.2.1 (Tile overlay fixes, changed Myrillion back to Decimillillion)
+0.3 (Added even more tile styles, changes to super tiles 2^10000+)
 
 ## Previous versions:
+
+0.2.1 (Tile overlay fixes, changed Myrillion back to Decimillillion)
 
 0.2 (New tile overlays added for levels 1100+)
 
