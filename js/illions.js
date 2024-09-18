@@ -69,7 +69,7 @@ let ILLIONS = {
 
 				t: ['', 'dec', 'vigint', 'trigint', 'quadragint', 'quinquagint', 'sexagint', 'septuagint', 'octogint', 'nonagint'],
 				h: ['', 'cent', 'ducent', 'tricent', 'quadragent', 'quinquagent', 'sexagent', 'septuagent', 'octogent', 'nonagent'],
-				h_eng: ['', 'cent', 'ducent', 'trecent', 'quadringent', 'quingent', 'sescent', 'septingent', 'octingent', 'nongent']
+				h_eng: ['', 'cent', 'ducent', 'trucent', 'quadringent', 'quingent', 'sescent', 'septingent', 'octingent', 'nongent']
 			},
 			format(x, ty = "") {
 				//SETUP
