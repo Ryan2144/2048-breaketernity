@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>永遠を破る2048</title>
+
+  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <link rel="apple-touch-startup-image" href="meta/apple-touch-startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"> <!-- iPhone 5+ -->
+  <link rel="apple-touch-startup-image" href="meta/apple-touch-startup-image-640x920.png"  media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)"> <!-- iPhone, retina -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">永遠を破る2048</h1>
+      <div class="scores-container">
+        <div class="score-container ja">0</div>
+        <div class="best-container ja">0</div>
+      </div>
+    </div>
+
+    <div class="above-game">
+      <p class="game-intro">隣数字をつなげて、<strong>最低を消せ！</strong></p>
+      <a class="restart-button">新しいゲーム</a>
+    </div>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">続ける</a>
+          <a class="retry-button">もう一度始める</a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+
+    <p class="game-explanation">
+      <strong class="important">遊び方：</strong><strong>矢印キー</strong>または<strong>スワイプ</strong>を使用してタイルを移動します。同じ数字のタイルが2つ接触すると、<strong>マージされます！</strong>
+    </p>
+    <hr>
+    <p>
+    <strong class="important">手記：</strong>このサイトは永遠を破る2048の公式バージョンです。
+    </p>
+    <hr>
+    <p>
+    <a href="http://gabrielecirulli.com" target="_blank">ガブリエレ・チルリ</a>によって作成されました。 に基づく <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 によって Veewo Studio</a> 概念的には <a href="http://asherv.com/threes/" target="_blank">スリー・アッシャー・フォルマー</a> のスリーに似ています。<a href="https://github.com/Ryan2144" target="_blank">Ryan2144</a>によって修正されました。
+    </p>
+    <hr>
+    <p>
+    <strong>現在のバージョン：</strong> バージョン0.4
+    </p>
+    <hr>
+    <p>
+    このゲームは<strong>break_eternity.js</strong>を使用しています、10^^1e308 までの数値を保存できます。こうすれば、179アンセンティリオンを超えてもプレイし続けることができます!
+    </p>
+  </div>
+
+  <script src="js/bind_polyfill.js"></script>
+  <script src="js/classlist_polyfill.js"></script>
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/local_storage_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+  <script src="js/illions.js"></script>
+  <script src="js/break_eternity.js"></script>
+  <script>var language = 2;</script>
+</body>
+</html>
