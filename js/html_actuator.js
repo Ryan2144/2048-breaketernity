@@ -182,7 +182,18 @@ else {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "You win!" : "Game over!";
+  if (language == 2) {
+    var message = won ? "達成しました！" : "ゲームオーバー！";
+  }
+  else if (language == 3) {
+    var message = won ? "你赢了！" : "游戏结束！";
+  }
+  else if (language == 4) {
+    var message = won ? "¡Tú ganas!" : "¡Juego terminado!";
+  }
+  else {
+    var message = won ? "You win!" : "Game over!";
+  }
 
   this.messageContainer.classList.add(type);
   this.messageContainer.getElementsByTagName("p")[0].textContent = message;
