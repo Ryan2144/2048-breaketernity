@@ -95,6 +95,24 @@ h1.title {
 .best-container:after {
   content: "Best"; }
 
+.score-container.ja:after {
+  content: "スコア"; }
+
+.best-container.ja:after {
+  content: "ハイウコア"; }
+
+.score-container.zh:after {
+  content: "分数"; }
+
+.best-container.zh:after {
+  content: "最高"; }
+
+.score-container.es:after {
+  content: "Puntos"; }
+
+.best-container.es:after {
+  content: "Mejor"; }
+
 p {
   margin-top: 0;
   margin-bottom: 10px;
