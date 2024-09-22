@@ -99,7 +99,7 @@ h1.title {
   content: "スコア"; }
 
 .best-container.ja:after {
-  content: "ハイウコア"; }
+  content: "ハイスコア"; }
 
 .score-container.zh:after {
   content: "分数"; }
