@@ -11,9 +11,8 @@ Oc - Octillion
 N - Nonillion
 
 Tens illions:
-D - Decillion
---After Decillion: UD DD TD QD QiD SxD SpD OcD ND--
-*will be changed to De in front of a hundreds illion
+De - Decillion
+--After Decillion: UDe DDe TDe QDe QiDe SxDe SpDe OcDe NDe--
 V - Vigintillion
 TR - Trigintillion
 QU - Quadragintillion
