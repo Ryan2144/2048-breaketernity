@@ -72,12 +72,24 @@ HTMLActuator.prototype.addTile = function (tile) {
   if (tile.value >= 1900 && tile.value < 8100) classes.push("tile-ex-super");
   if (tile.value >= 8100 && tile.value < 10000) classes.push("tile-ex-super-1");
   if (tile.value >= 10000 && tile.value < 20000) classes.push("tile-ex-super-2");
-  if (tile.value >= 20000 && tile.value < 50000) classes.push("tile-ex-super-3");
-  if (tile.value >= 50000 && tile.value < 100000) classes.push("tile-ex-super-4");
-  if (tile.value >= 100000 && tile.value < 200000) classes.push("tile-ex-super-5");
-  if (tile.value >= 200000 && tile.value < 500000) classes.push("tile-ex-super-6");
-  if (tile.value >= 500000 && tile.value < 1000000) classes.push("tile-ex-super-7");
-  if (tile.value >= 1000000) classes.push("tile-ex-super-8");
+  if (tile.value >= 20000 && tile.value < 30000) classes.push("tile-ex-super-3");
+  if (tile.value >= 30000 && tile.value < 40000) classes.push("tile-ex-super-4");
+  if (tile.value >= 40000 && tile.value < 50000) classes.push("tile-ex-super-5");
+  if (tile.value >= 50000 && tile.value < 60000) classes.push("tile-ex-super-6");
+  if (tile.value >= 60000 && tile.value < 70000) classes.push("tile-ex-super-7");
+  if (tile.value >= 70000 && tile.value < 80000) classes.push("tile-ex-super-8");
+  if (tile.value >= 80000 && tile.value < 90000) classes.push("tile-ex-super-9");
+  if (tile.value >= 90000 && tile.value < 100000) classes.push("tile-ex-super-10");
+  if (tile.value >= 100000 && tile.value < 200000) classes.push("tile-ex-super-11");
+  if (tile.value >= 200000 && tile.value < 300000) classes.push("tile-ex-super-12");
+  if (tile.value >= 300000 && tile.value < 400000) classes.push("tile-ex-super-13");
+  if (tile.value >= 400000 && tile.value < 500000) classes.push("tile-ex-super-14");
+  if (tile.value >= 500000 && tile.value < 600000) classes.push("tile-ex-super-15");
+  if (tile.value >= 600000 && tile.value < 700000) classes.push("tile-ex-super-16");
+  if (tile.value >= 700000 && tile.value < 800000) classes.push("tile-ex-super-17");
+  if (tile.value >= 800000 && tile.value < 900000) classes.push("tile-ex-super-18");
+  if (tile.value >= 900000 && tile.value < 1000000) classes.push("tile-ex-super-19");
+  if (tile.value >= 1000000) classes.push("tile-ex-super-20");
 
   this.applyClasses(wrapper, classes);
 
