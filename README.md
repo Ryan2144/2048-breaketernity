@@ -3,9 +3,11 @@ Join the numbers, extinguish the lowest! Get the highest tile you can. Now tiles
 
 ## Current version:
 
-0.5 (Even more tile styles added!)
+0.5.1 (Changed Decillion abbreviation from D to De)
 
 ## Previous versions:
+
+0.5 (Even more tile styles added!)
 
 0.4 (Added translations for foreign languages - Spanish, Simplified Chinese, and Japanese)
 
