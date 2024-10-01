@@ -106,7 +106,7 @@ let ILLIONS = {
 			data: {
 				o_s: ['K', 'M', 'B'],
 				o: ["", "U", "D", "T", "Q", "Qi", "Sx", "Sp", "Oc", "N"],
-				t: ["", "D", "V", "TR", "QU", "QI", "SX", "SP", "OC", "NO"],
+				t: ["", "De", "V", "TR", "QU", "QI", "SX", "SP", "OC", "NO"],
 				h: ["", "CE", "DU", "TE", "QR", "QN", "SE", "ST", "OT", "NN"]
 			},
 			format(x, ty = "") {
@@ -203,7 +203,7 @@ let ILLIONS = {
 					t: ["", "C", "Ico", "Tc", "Ttc", "Pc", "Hc", "Hpc", "Occ", "Ec"],
 					h: ["", "Hc", "Dh", "Th", "Tth", "Ph", "Hh", "Hph", "Oh", "Eh"]
 				},
-				tam: ["", "M", "D", "Tr", "Te", "Pe", "He", "Hp", "Oc", "En"],
+				tam: ["", "M", "D", "T", "Tt", "P", "H", "Hp", "O", "E"],
 			},
 			format(x, ty = "") {
 				//SETUP
