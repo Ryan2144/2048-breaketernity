@@ -48,7 +48,7 @@ Larger numbers:
 Mil - Millillion
 MilM - Milli-million
 BMil - Bilmillillion
-DMil - Decimillillion
+DeMil - Decimillillion
 (My - Myrillion)
 CEMil - Centimillillion
 Mic - Micrillion
