@@ -1180,7 +1180,7 @@ hr {
 
     -moz-background-size:107px 107px;
     background-size:107px 107px;
-    -webkit-background-size:107px 107px; /* override value for shitty webkit */
+    -webkit-background-size:107px 107px;
     
     background-position:0 0, 53.5px 0, 53.5px -53.5px, 0px 53.5px;
     box-shadow: 0 0 30px 10px rgb(85, 162, 0), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
